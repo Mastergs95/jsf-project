@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Qenel Home</title>
+</h:head>
+
+<h:body>
+
+    <h:form>
+        <center>
+            <h2>
+                <h:outputText value="What would you like to do?"/>
+            </h2>
+        </center>
+        <center>
+            <h:commandButton action="view.xhtml?faces-redirect=true"
+                             value="View Phones">
+            </h:commandButton>
+            <h:commandButton action="create.xhtml?faces-redirect=true"
+                             value="Create Records">
+            </h:commandButton>
+        </center>
+    </h:form>
+
+
+</h:body>
+</html>
